@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        div{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Preencha</legend>
+            <div>
+                <label for="inome">Nome</label>
+                <input type="text" size="10" required placeholder="Digite seu nome" > <br>
+            </div>
+            <div>
+                <label for="idate">Data de nascimento</label>
+                <input type="date" name="date" id="idate"> <br>
+            </div>
+            <div>
+                <label for="isenha">Senha</label>
+                <input type="password" name="Senha" id="isenha"> <br>
+            </div>
+            <div>
+                <label for="inacao">Escolha sua nacionalidade</label>
+                <select name="nacao" id="inacao">
+                    <option value="br">Brasil</option>
+                    <option value="py">Paraguay</option>
+                    <option value="arg">Argentina</option>
+                    <option value="ur">Uruguay</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>
